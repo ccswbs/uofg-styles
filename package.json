@@ -1,0 +1,37 @@
+{
+  "name": "@uoguelph/uofg-styles",
+  "version": "1.0.0",
+  "description": "A customized version of Bootstrap used for University of Guelph web pages",
+  "main": "dist/index.css",
+  "unpkg": "dist/index.css",
+  "scripts": {
+    "prettier": "prettier . --write",
+    "build": "NODE_ENV=production gulp",
+    "dev": "gulp watch",
+    "prepublishOnly": "npm run build && npmignore --auto"
+  },
+  "files": [
+    "dist/"
+  ],
+  "publishConfig": {
+    "ignore": [
+      "!dist/",
+      "src/"
+    ],
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "npmignore": "^0.3.1",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^2.6.0",
+    "prettier": "^3.3.3"
+  }
+}
