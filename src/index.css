@@ -4,7 +4,11 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ *
+ * uog variables are defined at the end of this file - look for :root {
+ *
  */
+ 
 *,
 :after,
 :before {
@@ -10042,31 +10046,6 @@ hr:not([size]) {
   background-color: #fff;
   margin: 2rem 2rem 1rem 0;
 }
-:root {
-  --uog-red: #c20430;
-  --uog-red-darker: #900324;
-  --uog-yellow: #ffc72a;
-  --uog-blue: #69a3b9;
-  --uog-blue-muted: #e1edf1;
-  --green: #3c8221;
-  --blue: #0074c1;
-  --white: #ffffff;
-  --off-white: #eeeeee;
-  --light-grey: #999999;
-  --grey: #555555;
-  --charcoal: #333333;
-  --black: #000000;
-  --warning: #d43900;
-  --danger: #ec1010;
-  --hero-height: 60rem;
-  --uofg-header-height: 5rem;
-  --font-family-sans-serif: "Roboto", "Arial", sans-serif;
-  --twitter: #1da1f3;
-  --facebook: #4267b2;
-  --instagram: #e53c7e;
-  --linkedin: #0077b5;
-  --youtube: #ff0200;
-}
 @media only screen and (min-width: 768px) and (min-height: 500px) {
   :root {
     --uofg-header-height: 7.5rem;
@@ -12260,4 +12239,29 @@ uofg-dropdown-menu.blurClose {
 }
 uofg-modal {
   z-index: 1000;
+}
+:root {
+  --uog-red: #c20430;
+  --uog-red-darker: #900324;
+  --uog-yellow: #ffc72a;
+  --uog-blue: #69a3b9;
+  --uog-blue-muted: #e1edf1;
+  --green: #3c8221;
+  --blue: #0074c1;
+  --white: #ffffff;
+  --off-white: #eeeeee;
+  --light-grey: #999999;
+  --grey: #555555;
+  --charcoal: #333333;
+  --black: #000000;
+  --warning: #d43900;
+  --danger: #ec1010;
+  --hero-height: 60rem;
+  --uofg-header-height: 5rem;
+  --font-family-sans-serif: "Roboto", "Arial", sans-serif;
+  --twitter: #1da1f3;
+  --facebook: #4267b2;
+  --instagram: #e53c7e;
+  --linkedin: #0077b5;
+  --youtube: #ff0200;
 }
