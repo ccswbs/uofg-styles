@@ -10246,8 +10246,8 @@ a.btn:hover {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background-color: #c20430 !important;
-  border-color: #c20430 !important;
+  background-color: var(--uog-red) !important;
+  border-color: var(--uog-red) !important;
   display: inline-block !important;
   color: #fff !important;
   color: #fff;
@@ -10256,8 +10256,8 @@ a.btn:hover {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #900324 !important;
-  border-color: #900324 !important;
+  background-color: var(--uog-red-focus) !important;
+  border-color: var(--uog-red-focus) !important;
   color: #fff !important;
 }
 .btn-secondary {
@@ -10274,8 +10274,8 @@ a.btn:hover {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background-color: #333 !important;
-  border-color: #333 !important;
+  background-color: var(--uog-black) !important;
+  border-color: var(--uog-black) !important;
   display: inline-block !important;
   color: #fff !important;
   color: #fff;
@@ -10284,8 +10284,8 @@ a.btn:hover {
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-  background-color: #1a1a1a !important;
-  border-color: #1a1a1a !important;
+  background-color: var(--uog-black-focus) !important;
+  border-color: var(--uog-black-focus) !important;
   color: #fff !important;
 }
 .btn-info {
@@ -10302,8 +10302,8 @@ a.btn:hover {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background-color: #0074c1 !important;
-  border-color: #0074c1 !important;
+  background-color: var(--uog-blue) !important;
+  border-color: var(--uog-blue) !important;
   display: inline-block !important;
   color: #fff !important;
   color: #fff;
@@ -10312,8 +10312,8 @@ a.btn:hover {
 .btn-info:active,
 .btn-info:focus,
 .btn-info:hover {
-  background-color: #00558e !important;
-  border-color: #00558e !important;
+  background-color: var(--uog-blue-focus) !important;
+  border-color: var(--uog-blue-focus) !important;
   color: #fff !important;
 }
 a.btn-info {
@@ -10333,8 +10333,8 @@ a.btn-info {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background-color: #3c8221 !important;
-  border-color: #3c8221 !important;
+  background-color: var(--uog-green) !important;
+  border-color: var(--uog-green) !important;
   display: inline-block !important;
   color: #fff !important;
   color: #fff;
@@ -10343,8 +10343,8 @@ a.btn-info {
 .btn-success:active,
 .btn-success:focus,
 .btn-success:hover {
-  background-color: #295917 !important;
-  border-color: #295917 !important;
+  background-color: var(--uog-green-focus) !important;
+  border-color: var(--uog-green-focus) !important;
   color: #fff !important;
 }
 .btn-warning {
@@ -10445,7 +10445,7 @@ a.btn-info {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  background-color: #000 !important;
+  background-color: var(--uog-black) !important;
   border-color: #000 !important;
   display: inline-block !important;
   color: #fff !important;
@@ -10454,13 +10454,13 @@ a.btn-info {
 .btn-black:active,
 .btn-black:focus,
 .btn-black:hover {
-  background-color: #000 !important;
-  border-color: #000 !important;
+  background-color: var(--uog-black-focus) !important;
+  border-color: var(--uog-black-focus) !important;
   color: #fff !important;
 }
 .btn-outline-primary {
-  color: #c20430 !important;
-  border-color: #c20430;
+  color: var(--uog-red) !important;
+  border-color: var(--uog-red);
   background-image: none;
   background-color: transparent;
   display: inline-block !important;
@@ -10469,13 +10469,13 @@ a.btn-info {
 .btn-outline-primary:active,
 .btn-outline-primary:focus,
 .btn-outline-primary:hover {
-  background-color: #c20430 !important;
-  border-color: #c20430 !important;
+  background-color: var(--uog-red) !important;
+  border-color: var(--uog-red) !important;
   color: #fff !important;
 }
 .btn-outline-secondary {
-  color: #333 !important;
-  border-color: #333;
+  color: var(--uog-black) !important;
+  border-color: var(--uog-black);
   background-image: none;
   background-color: transparent;
   display: inline-block !important;
@@ -10484,13 +10484,13 @@ a.btn-info {
 .btn-outline-secondary:active,
 .btn-outline-secondary:focus,
 .btn-outline-secondary:hover {
-  background-color: #333 !important;
-  border-color: #333 !important;
+  background-color: var(--uog-black) !important;
+  border-color: var(--uog-black) !important;
   color: #fff !important;
 }
 .btn-outline-info {
-  color: #0074c1 !important;
-  border-color: #0074c1;
+  color: var(--uog-blue) !important;
+  border-color: var(--uog-blue);
   background-image: none;
   background-color: transparent;
   display: inline-block !important;
@@ -10499,13 +10499,13 @@ a.btn-info {
 .btn-outline-info:active,
 .btn-outline-info:focus,
 .btn-outline-info:hover {
-  background-color: #0074c1 !important;
-  border-color: #0074c1 !important;
+  background-color: var(--uog-blue) !important;
+  border-color: var(--uog-blue) !important;
   color: #fff !important;
 }
 .btn-outline-success {
-  color: #3c8221 !important;
-  border-color: #3c8221;
+  color: var(--uog-green) !important;
+  border-color: var(--uog-green);
   background-image: none;
   background-color: transparent;
   display: inline-block !important;
@@ -10514,8 +10514,8 @@ a.btn-info {
 .btn-outline-success:active,
 .btn-outline-success:focus,
 .btn-outline-success:hover {
-  background-color: #3c8221 !important;
-  border-color: #3c8221 !important;
+  background-color: var(--uog-green) !important;
+  border-color: var(--uog-green) !important;
   color: #fff !important;
 }
 .btn-outline-warning {
@@ -10652,7 +10652,7 @@ a:hover {
 .btn-info:not(:disabled):not(.disabled).active,
 .btn-info:not(:disabled):not(.disabled):active,
 .show > .btn-info.dropdown-toggle {
-  background-color: #00558e !important;
+  background-color: var(--uog-blue) !important;
 }
 .dark-element-container {
   background: #222;
@@ -12213,11 +12213,22 @@ uofg-modal {
   z-index: 1000;
 }
 :root {
-  --uog-red: #e51937;
-  --uog-red-darker: #900324;
-  --uog-yellow: #ffc429;
+  --uog-black: #000;
+  --uog-black-focus: #353636;
   --uog-blue: #187bb4;
+  --uog-blue-focus: #156b9d;
   --uog-blue-muted: #e1edf1;
+  --uog-green: #318738;
+  --uog-grey-dark: #787673;
+  --uog-grey-dark-focus: #686764;
+  --uog-grey-light: #d6d6d6;
+  --uog-grey-light-focus: #bfbfbf;
+  --uog-green-focus: #2a7430;
+  --uog-red: #e51937;
+  --uog-red-focus: #bd2e35;
+  --uog-red-darker: #bd2e35;
+  --uog-yellow: #ffc429;
+  --uog-yellow-focus: #ff3299;
   --green: #318738;
   --blue: #0074c1;
   --white: #ffffff;
