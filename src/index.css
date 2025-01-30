@@ -78,7 +78,6 @@ p {
   margin-bottom: 1.5rem;
 }
 strong {
-  color: var(--charcoal);
   font-weight: 700;
 }
 abbr[data-bs-original-title],
@@ -5927,7 +5926,7 @@ fieldset:disabled .btn {
   border-color: #198754 !important;
 }
 .border-info {
-  border-color: #0d6efd !important;
+  border-color: var(--uog-blue) !important;
 }
 .border-warning {
   border-color: #ffc107 !important;
@@ -6669,7 +6668,7 @@ fieldset:disabled .btn {
   color: #198754 !important;
 }
 .text-info {
-  color: #0d6efd !important;
+  color: var(--uog-blue) !important;
 }
 .text-warning {
   color: #ffc107 !important;
