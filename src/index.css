@@ -12216,16 +12216,20 @@ uofg-modal {
   --uog-black-focus: #353636;
   --uog-blue: #187bb4;
   --uog-blue-focus: #156b9d;
+  --uog-blue-text: #166ea2
   --uog-blue-muted: #e1edf1;
   --uog-green: #318738;
-  --uog-grey-dark: #787673;
-  --uog-grey-dark-focus: #686764;
-  --uog-grey-light: #d6d6d6;
-  --uog-grey-light-focus: #bfbfbf;
   --uog-green-focus: #2a7430;
+  --uog-green-text: #2b7832;
+  --uog-grey-dark: #747676;
+  --uog-grey-dark-focus: #63625f;
+  --uog-grey-text: #686764;
+  --uog-grey-light: #d8d8d8;
+  --uog-grey-light-focus: #bfbfbf;
+  --uog-grey-muted: #d5d5d5;
   --uog-red: #e51937;
   --uog-red-focus: #bd2e35;
-  --uog-red-darker: #bd2e35;
+  --uog-red-text: #cf1732;
   --uog-yellow: #ffc429;
   --uog-yellow-focus: #ff3299;
   --green: #318738;
