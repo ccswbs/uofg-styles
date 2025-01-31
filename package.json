@@ -1,6 +1,6 @@
 {
   "name": "@uoguelph/uofg-styles",
-  "version": "3.0.0-rc.4",
+  "version": "3.0.0-rc.5",
   "description": "A customized version of Bootstrap used for University of Guelph web pages",
   "main": "dist/index.css",
   "unpkg": "dist/index.css",
