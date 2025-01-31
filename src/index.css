@@ -12211,27 +12211,48 @@ uofg-dropdown-menu.blurClose {
 uofg-modal {
   z-index: 1000;
 }
+
+/** 
+Colours
+
+- base: the base color
+- light: lightened version of the color
+- dark: darkened version of the color
+- muted: less saturated version
+
+Variants
+- focus: for hover and focus styles,
+- text: for using the color for text,
+- contrast: a color which reaches AA or AAA contrast when displayed on the base color 
+***/
+
 :root {
   --uog-black: #000;
   --uog-black-focus: #353636;
+  --uog-black-text: #000;
+  --uog-black-contrast: #fff;
   --uog-blue: #187bb4;
   --uog-blue-focus: #156b9d;
-  --uog-blue-text: #166ea2
+  --uog-blue-text: #166ea2;
+  --uog-blue-contrast: #000;
   --uog-blue-muted: #e1edf1;
+  --uog-blue-muted-contrast: #000;
   --uog-green: #318738;
   --uog-green-focus: #2a7430;
   --uog-green-text: #2b7832;
+  --uog-grey-text: #686764;
   --uog-grey-dark: #747676;
   --uog-grey-dark-focus: #63625f;
-  --uog-grey-text: #686764;
   --uog-grey-light: #d8d8d8;
   --uog-grey-light-focus: #bfbfbf;
   --uog-grey-muted: #f5f5f5;
   --uog-red: #e51937;
   --uog-red-focus: #bd2e35;
   --uog-red-text: #cf1732;
+  --uog-red-contrast: #fff;
   --uog-yellow: #ffc429;
   --uog-yellow-focus: #ffe299;
+  --uog-yellow-contrast: #000;
   --green: #318738;
   --blue: #0074c1;
   --white: #ffffff;
