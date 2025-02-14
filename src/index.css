@@ -12211,46 +12211,84 @@ uofg-modal {
 }
 
 /** 
-Colours
+U of G Colours
 
-- base: the base color
-- light: lightened version of the color
-- dark: darkened version of the color
-- muted: less saturated version
+- base: the base colour
+- light: lightened version of the colour
+- dark: darkened version of the colour
 
-Variants
-- focus: for hover and focus styles,
-- text: for using the color for text,
-- contrast: a color which reaches AA or AAA contrast when displayed on the base color 
+For each of the above, there can be:
+- rgb: the RGB version of the colour, useful for creating the light version of a colour (e.g., rgba(var(--uog-blue-rgb), 0.1))
+- bg: a less saturated version of the base colour that works well as a background for text
+- contrast: a colour which reaches at minimum AA contrast when displayed on the base colour
+- focus: for hover and focus styles
+- on-dark: for using the colour as text over a neutral dark background (--uog-grey-dark-bg), while meeting AA contrast.
+- on-light: for using the colour as text over a neutral light background (--uog-grey-light-bg), while meeting AA contrast.
+
+For our neutral light and dark backgrounds they will be:
+- uog-grey-light-bg
+- uog-grey-dark-bg
 ***/
 
 :root {
+
+  --uog-body-copy: #555;
+  --uog-body-copy-bold: #333;
+
   --uog-black: #000;
-  --uog-black-focus: #353636;
-  --uog-black-text: #000;
   --uog-black-contrast: #fff;
+  --uog-black-focus: #333;
+  --uog-black-on-dark: #fff;
+  --uog-black-on-light: #000;
+
   --uog-blue: #187bb4;
+  --uog-blue-rgb: 24, 123, 180;
+  --uog-blue-contrast: #fff;
   --uog-blue-focus: #156b9d;
-  --uog-blue-text: #166ea2;
-  --uog-blue-contrast: #000;
+  /* --uog-blue-on-dark: TBD  */
+  --uog-blue-on-light: #166ea2;
+
+  --uog-green: #318738;
+  --uog-green-rgb: 49, 135, 56;
+  --uog-green-contrast: #fff;
+  --uog-green-focus: #2a7430;
+  /* --uog-green-on-dark: TBD  */
+  --uog-green-on-light: #2b7832;
+
+  --uog-red: #e51937;
+  --uog-red-rgb: 229, 25, 55;
+  --uog-red-contrast: #fff;
+  --uog-red-focus: #bd2e35;
+  --uog-red-on-light: #cf1732;
+  /* --uog-red-on-dark: TBD */
+
+  --uog-yellow: #ffc429;
+  --uog-yellow-rgb: 255, 196, 41;
+  --uog-yellow-contrast: #000;
+  --uog-yellow-focus: #ffe299;
+  /* --uog-yellow-on-light: TBD; */
+  /* --uog-yellow-on-dark: TBD; */
+
+  --uog-grey-dark: #747676;
+  --uog-grey-dark-rgb: 116, 118, 118;
+  --uog-grey-dark-bg: #222222;
+  --uog-grey-dark-contrast: #fff;
+  --uog-grey-dark-focus: #63625f;
+  /* --uog-grey-dark-on-dark: TBD; */
+  --uog-grey-dark-on-light: #686764;
+
+  --uog-grey-light: #d8d8d8;
+  --uog-grey-light-rgb: 216, 216, 216;
+  --uog-grey-light-bg: #f5f5f5;
+  --uog-grey-light-contrast: #000;
+  --uog-grey-light-focus: #bfbfbf;
+  /* --uog-grey-light-on-dark: TBD; */
+
+  /* legacy */
+  --uog-grey-muted: #f5f5f5;
   --uog-blue-muted: #f5f7fa;
   --uog-blue-muted-contrast: #000;
-  --uog-green: #318738;
-  --uog-green-focus: #2a7430;
-  --uog-green-text: #2b7832;
-  --uog-grey-text: #686764;
-  --uog-grey-dark: #747676;
-  --uog-grey-dark-focus: #63625f;
-  --uog-grey-light: #d8d8d8;
-  --uog-grey-light-focus: #bfbfbf;
-  --uog-grey-muted: #f5f5f5;
-  --uog-red: #e51937;
-  --uog-red-focus: #bd2e35;
-  --uog-red-text: #cf1732;
-  --uog-red-contrast: #fff;
-  --uog-yellow: #ffc429;
-  --uog-yellow-focus: #ffe299;
-  --uog-yellow-contrast: #000;
+
   --green: #318738;
   --blue: #0074c1;
   --white: #ffffff;
