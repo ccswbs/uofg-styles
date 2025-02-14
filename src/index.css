@@ -10084,21 +10084,19 @@ hr:not([size]) {
 }
 hr {
   border: 0;
-  height: 3px;
+  height: 2px;
   margin: 3rem 0;
   background: linear-gradient(
     to right,
     transparent 0,
-    transparent 25%,
-    var(--black) 25%,
-    var(--black) 37.5%,
-    var(--uog-yellow) 37.5%,
-    var(--uog-yellow) 50%,
-    var(--uog-red) 50%,
-    var(--uog-red) 62.5%,
-    var(--uog-blue) 62.5%,
-    var(--uog-blue) 75%,
-    transparent 75%,
+    transparent 20%,
+    var(--uog-red) 20%,
+    var(--uog-red) 40%,
+    var(--uog-yellow) 40%,
+    var(--uog-yellow) 60%,
+    var(--uog-black) 60%,
+    var(--uog-black) 80%,
+    transparent 80%,
     transparent 100%
   );
 }
