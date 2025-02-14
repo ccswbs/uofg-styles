@@ -10123,7 +10123,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.01rem;
   font-weight: 500;
-  color: var(--uog-red);
+  color: var(--uog-black);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   clear: both;
@@ -10149,7 +10149,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.01rem;
   font-weight: 500;
-  color: black;
+  color: var(--uog-black);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   clear: both;
@@ -10162,7 +10162,7 @@ h4 {
   line-height: 1.2;
   letter-spacing: 0.01rem;
   font-weight: 500;
-  color: black;
+  color: var(--uog-black);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   clear: both;
@@ -10175,7 +10175,7 @@ h5 {
   line-height: 1.2;
   letter-spacing: 0.01rem;
   font-weight: 500;
-  color: black;
+  color: var(--uog-black);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   clear: both;
@@ -10188,7 +10188,7 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.01rem;
   font-weight: 500;
-  color: var(--uog-red);
+  color: var(--uog-black);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   clear: both;
