@@ -6719,10 +6719,10 @@ fieldset:disabled .btn {
   background-color: #dc3545 !important;
 }
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: var(--uog-grey-light-bg) !important;
 }
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: var(--uog-grey-dark-bg) !important;
 }
 .bg-body {
   background-color: #fff !important;
@@ -12233,7 +12233,12 @@ For our neutral light and dark backgrounds they will be:
 :root {
 
   --uog-body-copy: #555;
+/* --uog-body-copy-on-dark: TBD; */
   --uog-body-copy-bold: #333;
+  /* --uog-body-copy-bold-on-dark: TBD; */
+  --uog-body-copy-link: #1775ab;
+  /* --uog-body-copy-link-on-light: TBD; */
+  /* --uog-body-copy-link-on-dark: TBD; */
 
   --uog-black: #000;
   --uog-black-contrast: #fff;
