@@ -10581,7 +10581,7 @@ a.btn-info {
   color: #fff !important;
 }
 a {
-  color: var(--blue);
+  color: var(--uog-blue-on-light);
   transition: all 0.25s ease-in-out;
   letter-spacing: 0.03rem;
   font-weight: 400;
@@ -10788,13 +10788,13 @@ a:hover {
 }
 .pagination a.page-link:focus,
 .pagination a.page-link:hover {
-  background: var(--uog-blue-muted) !important;
+  background: var(--uog-grey-light-bg) !important;
 }
 .progress-bar {
   background-color: var(--uog-yellow);
 }
 .form-check-input:checked {
-  background-color: var(--blue);
+  background-color: var(--uog-blue);
   border-color: rgba(0, 0, 0, 0.25);
 }
 .site-content strong {
@@ -10808,7 +10808,7 @@ a:hover {
   font-size: 1.8rem;
   line-height: 1.8;
   border-radius: 0;
-  background: #f7f8fb;
+  background: var(--uog-grey-light-bg);
   padding: 0;
   border: 0;
 }
@@ -10820,17 +10820,17 @@ a:hover {
   display: block !important;
   padding: 1rem 0.5rem 1rem 3rem !important;
   overflow: hidden;
-  color: var(--blue);
+  color: var(--uog-blue-on-light);
   transition: all 0.15s ease-out;
   line-height: 1.8rem;
-  background-color: #f7f8fb;
+  background-color: var(--uog-grey-light-bg);
   text-decoration-line: none !important;
   width: 100%;
 }
 .site-content ul.menu.list-group li.list-group-item a:focus,
 .site-content ul.menu.list-group li.list-group-item a:hover {
   color: #fff;
-  background-color: var(--blue);
+  background-color: var(--uog-blue);
 }
 .site-content ul.menu.list-group li.list-group-item a:after {
   content: "";
@@ -10863,7 +10863,7 @@ a:hover {
   display: unset;
   padding: 0.5rem 0.15rem 0.25rem;
   overflow: hidden;
-  color: var(--blue);
+  color: var(--uog-blue-on-light);
   transition: color 0.15s ease-out;
   text-decoration-line: underline;
   text-decoration-style: solid;
@@ -10887,10 +10887,10 @@ a:hover {
   ):not(.carousel-nav):not(.news-link):not([class^="mejs__"]):not(.carousel-control-prev):not(
     .carousel-control-next
   ):hover {
-  color: #fff;
-  background: var(--blue);
+  color: var(--uog-blue-contrast);
+  background: var(--uog-blue);
   opacity: 1;
-  text-decoration-color: var(--blue);
+  text-decoration-color: var(--uog-blue);
 }
 .site-content
   .content-area
@@ -10962,7 +10962,7 @@ a:hover {
   transition: background-color ease-in 0.2s;
   display: flex;
   align-items: center;
-  background-color: #0074c1;
+  background-color: var(--uog-blue);
   color: #fff;
   font-size: 2rem;
   width: 100%;
@@ -10981,12 +10981,12 @@ a:hover {
 }
 .accordion .accordion-item .accordion-header button.accordion-button.collapsed {
   background-color: #f7f8fb;
-  color: #0074c1;
+  color: var(--uog-blue-on-light);
 }
 .accordion .accordion-item .accordion-header button.accordion-button.collapsed:focus,
 .accordion .accordion-item .accordion-header button.accordion-button.collapsed:hover {
-  background-color: #0074c1;
-  color: #fff;
+  background-color: var(--uog-blue);
+  color: var(--uog-blue-contrast);
 }
 .accordion .accordion-item .accordion-header button.accordion-button.collapsed:after {
   transform: rotate(90deg);
@@ -11104,7 +11104,7 @@ body {
 .site-content .thumbnail a {
   display: block;
   background-position: 0 0;
-  border: 0.2rem solid #0074c1;
+  border: 0.2rem solid var(--uog-blue);
   margin: 0;
   padding: 0;
 }
@@ -11207,7 +11207,7 @@ a:focus {
 }
 .main-container .site-content ul li ul li:before ul li:before,
 .page-container .site-content ul li ul li:before ul li:before {
-  color: var(--uog-blue-muted);
+  color: var(--uog-grey-bg-light);
 }
 .main-container .site-content ul.list-featured a,
 .main-container .site-content ul.list-group a,
@@ -11513,7 +11513,7 @@ main#main-container > h1.fancy-title {
 }
 .page-container a:focus,
 .page-container a:hover {
-  border-bottom: 0.2rem solid var(--blue);
+  border-bottom: 0.2rem solid var(--uog-blue);
 }
 .page-container #main,
 .page-container #main-column,
@@ -11739,7 +11739,7 @@ div.selection i:hover {
   margin: 1rem 0 2rem;
 }
 .uog-card a {
-  background: var(--uog-blue-muted);
+  background: var(--uog-grey-light-bg);
   display: flex;
   width: 20rem;
   padding: 1rem 1rem 1rem 8rem;
@@ -11758,7 +11758,7 @@ div.selection i:hover {
   top: -0.5rem;
 }
 .site-content.pre-footer-wrapper {
-  background: var(--uog-blue-muted);
+  background: var(--uog-grey-light-bg);
   padding: 2rem;
   min-height: auto;
 }
