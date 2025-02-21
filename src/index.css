@@ -12235,47 +12235,31 @@ For our neutral light and dark backgrounds they will be:
 
 :root {
 
-  --uog-body-copy: #555;
-  --uog-body-copy-on-dark: #f8f9fa;
-  --uog-body-copy-bold: #333;
-  --uog-body-copy-bold-on-dark: #f8f9fa;
-  --uog-body-copy-link: #1775ab;
-  /* --uog-body-copy-link-on-light: TBD - #1775ab or #166ea2 ? */
-  /* --uog-body-copy-link-on-dark: TBD; */
-
   --uog-black: #000;
+  --uog-black-bg: #000;
   --uog-black-contrast: #fff;
-  --uog-black-focus: #333;
-  --uog-black-on-dark: #fff;
+  --uog-black-focus: #444;
   --uog-black-on-light: #000;
 
   --uog-blue: #187bb4;
   --uog-blue-rgb: 24, 123, 180;
   --uog-blue-contrast: #fff;
-  --uog-blue-focus: #156b9d;
-  /* --uog-blue-on-dark: TBD  */
-  --uog-blue-on-light: #166ea2;
+  --uog-blue-focus: #135f8b;
+  --uog-blue-on-light: #1775ab;
+
+  --uog-body-copy: #555;
+  --uog-body-copy-on-dark: #ccc;
+  --uog-body-copy-bold: #333;
+  --uog-body-copy-bold-on-dark: #eee;
+  --uog-body-copy-link: #187bb4;
+  --uog-body-copy-link-on-light: #166ea2;
+  --uog-body-copy-link-on-dark: #1d93d7;
 
   --uog-green: #318738;
   --uog-green-rgb: 49, 135, 56;
   --uog-green-contrast: #fff;
-  --uog-green-focus: #2a7430;
-  /* --uog-green-on-dark: TBD  */
-  --uog-green-on-light: #2b7832;
-
-  --uog-red: #e51937;
-  --uog-red-rgb: 229, 25, 55;
-  --uog-red-contrast: #fff;
-  --uog-red-focus: #bd2e35;
-  --uog-red-on-light: #cf1732;
-  /* --uog-red-on-dark: TBD */
-
-  --uog-yellow: #ffc429;
-  --uog-yellow-rgb: 255, 196, 41;
-  --uog-yellow-contrast: #000;
-  --uog-yellow-focus: #ffe299;
-  /* --uog-yellow-on-light: TBD; */
-  /* --uog-yellow-on-dark: TBD; */
+  --uog-green-focus: #27682c;
+  --uog-green-on-light: #2e7f35;
 
   --uog-grey-dark: #747676;
   --uog-grey-dark-rgb: 116, 118, 118;
@@ -12292,8 +12276,25 @@ For our neutral light and dark backgrounds they will be:
   --uog-grey-light-focus: #bfbfbf;
   /* --uog-grey-light-on-dark: TBD; */
 
+  --uog-red: #e51937;
+  --uog-red-rgb: 229, 25, 55;
+  --uog-red-contrast: #fff;
+  --uog-red-focus: #b3142c;
+  --uog-red-on-light: #dc1836;
+
+  --uog-yellow: #ffc429;
+  --uog-yellow-rgb: 255, 196, 41;
+  --uog-yellow-contrast: #000;
+  --uog-yellow-focus: #ffe299;
+  --uog-yellow-on-dark: #ffc429;
+
+  --uog-white: #fff;
+  --uog-white-bg: #fff;
+  --uog-white-contrast: #000;
+  --uog-white-focus: #ddd;
+  --uog-white-on-dark: #fff;
+
   /* legacy */
-  --uog-grey-muted: #f5f5f5;
   --uog-blue-muted: #f5f7fa;
   --uog-blue-muted-contrast: #000;
 
