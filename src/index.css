@@ -10584,7 +10584,7 @@ a.btn-info {
   color: var(--uog-black-contrast) !important;
 }
 a {
-  color: var(--uog-blue-on-light);
+  color: var(--uog-body-copy-link);
   transition: all 0.25s ease-in-out;
   letter-spacing: 0.03rem;
   font-weight: 400;
@@ -10869,7 +10869,7 @@ a:hover {
   display: unset;
   padding: 0.5rem 0.15rem 0.25rem;
   overflow: hidden;
-  color: var(--uog-blue-on-light);
+  color: var(--uog-body-copy-link);
   transition: color 0.15s ease-out;
   text-decoration-line: underline;
   text-decoration-style: solid;
