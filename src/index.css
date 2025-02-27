@@ -10898,6 +10898,7 @@ a:hover {
   opacity: 1;
   text-decoration-color: var(--uog-blue);
 }
+
 .site-content
   .content-area
   a:not(.btn):not(.nav-item):not(.location-list-item):not([data-toggle="collapse"]):not(.event-card):not(
@@ -11174,7 +11175,6 @@ a:focus {
 }
 .main-container .site-content ul,
 .page-container .site-content ul {
-  list-style-type: none;
   padding-left: 2.5rem;
 }
 .main-container .site-content ul li,
@@ -11184,36 +11184,6 @@ a:focus {
   position: relative;
   padding: 0;
   margin-bottom: 0.5rem;
-}
-.main-container .site-content ul li:before,
-.page-container .site-content ul li:before {
-  content: "";
-  font-family: "Font Awesome 6 Pro";
-  font-weight: 900;
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  position: absolute;
-  left: -2rem;
-  top: 0.5rem;
-  color: var(--uog-yellow);
-  z-index: 8;
-}
-.main-container .site-content ul li li li:before,
-.page-container .site-content ul li li li:before {
-  color: #999;
-}
-.main-container .site-content ul li ol li:before,
-.page-container .site-content ul li ol li:before {
-  color: var(--uog-red-contrast);
-  background: var(--uog-red);
-}
-.main-container .site-content ul li ul li:before,
-.page-container .site-content ul li ul li:before {
-  color: var(--uog-red);
-}
-.main-container .site-content ul li ul li:before ul li:before,
-.page-container .site-content ul li ul li:before ul li:before {
-  color: var(--uog-grey-light-bg);
 }
 .main-container .site-content ul.list-featured a,
 .main-container .site-content ul.list-group a,
@@ -11258,61 +11228,18 @@ a:focus {
 .main-container .site-content ol:not(.carousel-indicators),
 .page-container .site-content ol:not(.carousel-indicators) {
   counter-reset: list-counter;
-  list-style: none;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 .main-container .site-content ol:not(.carousel-indicators) > li,
 .page-container .site-content ol:not(.carousel-indicators) > li {
   font-size: 1.8rem;
   line-height: 1.58;
-  padding-left: 3rem;
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .main-container .site-content ol:not(.carousel-indicators) > li:before,
 .page-container .site-content ol:not(.carousel-indicators) > li:before {
-  content: counter(list-counter);
   counter-increment: list-counter;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-  position: absolute;
-  left: -1rem;
-  top: 0.25rem;
-  color: var(--uog-yellow-contrast);
-  background: var(--uog-yellow);
-  width: 2.5rem;
-  height: 2.75rem;
-  padding: 0.25rem 0;
-  font-weight: 700;
-  text-align: center;
-}
-.main-container .site-content ol:not(.carousel-indicators) > li li li:before,
-.page-container .site-content ol:not(.carousel-indicators) > li li li:before {
-  color: #999;
-}
-.main-container .site-content ol:not(.carousel-indicators) > li ol li:before,
-.page-container .site-content ol:not(.carousel-indicators) > li ol li:before {
-  color: var(--uog-red-contrast);
-  background: var(--uog-red);
-}
-.main-container .site-content ol:not(.carousel-indicators) > li ul,
-.page-container .site-content ol:not(.carousel-indicators) > li ul {
-  margin-top: 1rem;
-}
-.main-container .site-content ol:not(.carousel-indicators) > li ul li:before,
-.page-container .site-content ol:not(.carousel-indicators) > li ul li:before {
-  content: "";
-  font-family: "Font Awesome 6 Pro";
-  font-weight: 900;
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-  position: absolute;
-  left: -2.5rem;
-  top: 0.5rem;
-  color: var(--uog-yellow);
-  z-index: 8;
-  display: inline-block;
-  background: 0 0;
 }
 .main-container .site-content ol:not(.carousel-indicators).footnotes li,
 .page-container .site-content ol:not(.carousel-indicators).footnotes li {
@@ -12264,19 +12191,10 @@ For our neutral light and dark backgrounds they will be:
   --uog-green-focus: #27682c;
   --uog-green-on-light: #2e7f35;
 
-  --uog-grey-dark: #747676;
-  --uog-grey-dark-rgb: 116, 118, 118;
   --uog-grey-dark-bg: #222222;
-  --uog-grey-dark-contrast: #fff;
-  --uog-grey-dark-focus: #63625f;
-  --uog-grey-dark-on-light: #686764;
-
-  --uog-grey-light: #d8d8d8;
-  --uog-grey-light-rgb: 216, 216, 216;
+  
   --uog-grey-light-bg: #f5f5f5;
-  --uog-grey-light-contrast: #000;
-  --uog-grey-light-focus: #bfbfbf;
-  /* --uog-grey-light-on-dark: TBD; */
+  --uog-grey-light-bg-focus: #bfbfbf;
 
   --uog-red: #e51937;
   --uog-red-rgb: 229, 25, 55;
