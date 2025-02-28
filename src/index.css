@@ -11157,7 +11157,6 @@ a:focus {
 }
 .main-container .site-content ol:not(.carousel-indicators),
 .page-container .site-content ol:not(.carousel-indicators) {
-  counter-reset: list-counter;
   padding-left: 2.5rem;
 }
 .main-container .site-content ol:not(.carousel-indicators) > li,
@@ -11195,7 +11194,7 @@ a:focus {
 .page-container .site-content ol > li > ol > li > ol > li {
   list-style-type: lower-roman;
 }
-.main-container .site-content ol.lower-roman > li:before,
+/* .main-container .site-content ol.lower-roman > li:before,
 .main-container .site-content ol.roman-upper > li:before,
 .page-container .site-content ol.lower-roman > li:before,
 .page-container .site-content ol.roman-upper > li:before {
@@ -11208,7 +11207,7 @@ a:focus {
 .main-container .site-content ol.roman-lower > li:before,
 .page-container .site-content ol.roman-lower > li:before {
   content: counter(list-counter, lower-roman);
-}
+} */
 .main-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
 .page-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
   width: 100%;
