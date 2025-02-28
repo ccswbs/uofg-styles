@@ -10788,6 +10788,12 @@ a:hover {
 .bg-dark strong {
   color: var(--uog-body-copy-bold-on-dark) !important;
 }
+.bg-dark a {
+  color: var(--uog-body-copy-link-on-dark);
+}
+.bg-light a {
+  color: var(--uog-body-copy-link-on-light);
+}
 .site-content ul.menu.list-group {
   margin-bottom: 1rem;
 }
