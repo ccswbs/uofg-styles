@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 1.5rem;
 }
 .h1, h1 {
-  color: var(--black);
+  color: var(--uog-black);
   font-family: var(--font-family-serif);
   font-size: 4rem;
   margin-top: 2rem;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6,
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  color: var(--black);
+  color: var(--uog-black);
   font-family: var(--font-family-sans-serif);
   font-size: 2rem;
   margin-top: 3rem;
@@ -6680,7 +6680,7 @@ fieldset:disabled .btn {
   color: var(--uog-body-copy-on-dark) !important;
 }
 .text-dark {
-  color: var(--uog-body-copy) !important;
+  color: var(--uog-black) !important;
 }
 .text-white {
   color: #fff !important;
