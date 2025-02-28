@@ -11183,6 +11183,18 @@ a:focus {
   line-height: 1.1rem;
   background: #fff;
 }
+.main-container .site-content ol > li,
+.page-container .site-content ol > li {
+  list-style-type: decimal;
+}
+.main-container .site-content ol > li > ol > li,
+.page-container .site-content ol > li > ol > li {
+  list-style-type: lower-latin;;
+}
+.main-container .site-content ol > li > ol > li > ol > li,
+.page-container .site-content ol > li > ol > li > ol > li {
+  list-style-type: lower-roman;
+}
 .main-container .site-content ol.lower-roman > li:before,
 .main-container .site-content ol.roman-upper > li:before,
 .page-container .site-content ol.lower-roman > li:before,
