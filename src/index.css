@@ -11200,7 +11200,9 @@ a:focus {
 .page-container .site-content ol > li > ol > li > ol > li {
   list-style-type: lower-roman;
 }
-.row > :first-child {
+.row > :first-child,
+.site-content > :first-child, 
+.content-area > :first-child {
   margin-top: 0;
 }
 .main-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
