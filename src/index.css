@@ -11201,9 +11201,10 @@ a:focus {
   list-style-type: lower-roman;
 }
 
-.page-container:first-child 
-.site-content .content-area 
-:is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6):first-child {
+.page-container:first-child .site-content 
+.content-area > :is(h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6):first-child, 
+.page-container:first-child .site-content 
+.content-area > .row:first-child :is(h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6):first-child {
   margin-top: 0;
 }
 .main-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
