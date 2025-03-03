@@ -10126,11 +10126,16 @@ h1 {
   font-weight: 500;
   color: var(--uog-black);
   margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   clear: both;
   display: block;
   font-weight: 700;
   font-size: 4rem;
+}
+.site-content :is(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
+.site-content :is(h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 .h2,
 h2 {
@@ -10893,6 +10898,7 @@ a:hover {
 }
 .accordion .accordion-item .accordion-header {
   padding: 0;
+  margin-bottom: 0;
   margin-top: 0.5rem;
 }
 .accordion .accordion-item .accordion-header button.accordion-button {
@@ -11193,6 +11199,9 @@ a:focus {
 .main-container .site-content ol > li > ol > li > ol > li,
 .page-container .site-content ol > li > ol > li > ol > li {
   list-style-type: lower-roman;
+}
+.row > :first-child {
+  margin-top: 0;
 }
 .main-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6),
 .page-container .site-content :is(h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6) {
