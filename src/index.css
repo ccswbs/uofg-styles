@@ -11610,25 +11610,6 @@ div.selection i:hover {
 .uog-card {
   margin: 1rem 0 2rem;
 }
-.uog-card a {
-  background: var(--uog-grey-light-bg);
-  display: flex;
-  width: 20rem;
-  padding: 1rem 1rem 1rem 8rem;
-  margin-right: 1rem;
-  text-align: left;
-  height: 8rem;
-  position: relative;
-  line-height: 2rem;
-  transition: all 0.25s ease-in-out;
-  top: 0;
-  color: #555;
-}
-.uog-card a:focus,
-.uog-card a:hover {
-  background: #d0e3e9;
-  top: -0.5rem;
-}
 .site-content.pre-footer-wrapper {
   background: var(--uog-grey-light-bg);
   padding: 2rem;
