@@ -10787,6 +10787,9 @@ a:hover {
   color: var(--uog-body-copy-bold);
   font-weight: 700;
 }
+.site-content a strong {
+  color: var(--uog-body-copy-link);
+}
 .site-content .btn strong{
   color: inherit;
 }
