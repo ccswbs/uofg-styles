@@ -10799,7 +10799,8 @@ a:hover {
 .bg-dark a {
   color: var(--uog-body-copy-link-on-dark);
 }
-.bg-light a {
+.bg-light a,
+.table-striped a {
   color: var(--uog-body-copy-link-on-light);
 }
 .site-content ul.menu.list-group {
