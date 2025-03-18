@@ -12103,8 +12103,12 @@ For our neutral light and dark backgrounds they will be:
 
   --uog-color-body-copy: #555;
   --uog-color-body-copy-on-dark: #ccc;
+  --uog-color-body-copy-on-light: #555;
+
   --uog-color-body-copy-bold: #333;
-  --uog-color-body-copy-bold-on-dark: #eee;
+  --uog-color-body-copy-bold-on-light: #333;
+  --uog-color-body-copy-bold-on-dark: #e2e2e2;
+
   --uog-color-body-copy-link: #187bb4;
   --uog-color-body-copy-link-on-light: #166ea2;
   --uog-color-body-copy-link-on-dark: #1d93d7;
@@ -12115,10 +12119,15 @@ For our neutral light and dark backgrounds they will be:
   --uog-color-green-focus: #27682c;
   --uog-color-green-on-light: #2e7f35;
 
-  --uog-color-grey-dark-bg: #222222;
+  --uog-color-grey-dark: #747676;
+  --uog-color-grey-dark-focus: #63625f;
+  --uog-color-grey-dark-contrast: #fff;
+  --uog-color-grey-dark-bg: #222;
 
+  --uog-color-grey-light: #d8d8d8;
+  --uog-color-grey-light-focus: #bfbfbf;
+  --uog-color-grey-light-contrast: #000;
   --uog-color-grey-light-bg: #f5f5f5;
-  --uog-color-grey-light-bg-focus: #bfbfbf;
 
   --uog-color-red: #e51937;
   --uog-color-red-rgb: 229, 25, 55;
