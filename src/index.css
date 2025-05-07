@@ -11069,7 +11069,7 @@ body {
 }
 a:active,
 a:focus {
-  outline: 0.1rem dotted var(--uog-color-yellow) !important;
+  outline: 2px solid var(--uog-color-body-copy-link) !important;
 }
 .author {
   border-left: 3px solid var(--uog-color-yellow);
