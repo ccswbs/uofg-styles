@@ -10477,10 +10477,17 @@ a.btn-info {
   background-color: transparent;
   display: inline-block !important;
 }
+.bg-light .btn-outline-info {
+  color: var(--uog-color-body-copy-link-on-light) !important;
+}
 .btn-outline-info.active,
 .btn-outline-info:active,
 .btn-outline-info:focus,
-.btn-outline-info:hover {
+.btn-outline-info:hover,
+.bg-light .btn-outline-info.active,
+.bg-light .btn-outline-info:active,
+.bg-light .btn-outline-info:focus,
+.bg-light .btn-outline-info:hover {
   background-color: var(--uog-color-blue) !important;
   border-color: var(--uog-color-blue) !important;
   color: #fff !important;
@@ -10800,8 +10807,7 @@ a:hover {
   color: var(--uog-color-body-copy-link-on-dark);
 }
 .bg-light a,
-.table-striped a,
-.bg-light a.btn-outline-info {
+.table-striped a {
   color: var(--uog-color-body-copy-link-on-light);
 }
 .site-content ul.menu.list-group {
