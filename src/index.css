@@ -11077,6 +11077,14 @@ a:active,
 a:focus {
   outline: 2px solid var(--uog-color-body-copy-link) !important;
 }
+.bg-light a:active,
+.bg-light a:focus {
+  outline: var(--uog-color-body-copy-link-on-light) !important;
+}
+.bg-dark a:active,
+.bg-dark a:focus {
+  outline: var(--uog-color-body-copy-link-on-dark) !important;
+}
 .author {
   border-left: 3px solid var(--uog-color-yellow);
   padding-left: 2rem;
