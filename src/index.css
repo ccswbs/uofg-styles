@@ -11079,11 +11079,11 @@ a:focus {
 }
 .bg-light a:active,
 .bg-light a:focus {
-  outline: var(--uog-color-body-copy-link-on-light) !important;
+  outline-color: var(--uog-color-body-copy-link-on-light) !important;
 }
 .bg-dark a:active,
 .bg-dark a:focus {
-  outline: var(--uog-color-body-copy-link-on-dark) !important;
+  outline-color: var(--uog-color-body-copy-link-on-dark) !important;
 }
 .author {
   border-left: 3px solid var(--uog-color-yellow);
