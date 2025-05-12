@@ -10261,6 +10261,7 @@ a.btn:hover {
   background-color: var(--uog-color-red-focus) !important;
   border-color: var(--uog-color-red-focus) !important;
   color: var(--uog-color-red-contrast) !important;
+  outline: none !important;
 }
 .btn-secondary {
   color: var(--uog-color-black-contrast) !important;
@@ -10286,6 +10287,7 @@ a.btn:hover {
   background-color: var(--uog-color-black-focus) !important;
   border-color: var(--uog-color-black-focus) !important;
   color: var(--uog-color-black-contrast) !important;
+  outline: none !important;
 }
 .btn-info {
   color: var(--uog-color-blue-contrast) !important;
@@ -10311,6 +10313,7 @@ a.btn:hover {
   background-color: var(--uog-color-blue-focus) !important;
   border-color: var(--uog-color-blue-focus) !important;
   color: var(--uog-color-blue-contrast) !important;
+  outline: none !important;
 }
 a.btn-info {
   color: var(--uog-color-blue-contrast) !important;
@@ -10339,6 +10342,7 @@ a.btn-info {
   background-color: var(--uog-color-green-focus) !important;
   border-color: var(--uog-color-green-focus) !important;
   color: var(--uog-color-green-contrast) !important;
+  outline: none !important;
 }
 .btn-warning {
   color: #fff !important;
@@ -10364,6 +10368,7 @@ a.btn-info {
   background-color: #a12b00 !important;
   border-color: #a12b00 !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-danger {
   color: var(--uog-color-red-contrast) !important;
@@ -10389,6 +10394,7 @@ a.btn-info {
   background-color: var(--uog-color-red-focus) !important;
   border-color: var(--uog-color-red-focus) !important;
   color: var(--uog-color-red-contrast) !important;
+  outline: none !important;
 }
 .btn-white {
   color: #fff !important;
@@ -10414,6 +10420,7 @@ a.btn-info {
   background-color: #d5d5d5 !important;
   border-color: #d5d5d5 !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-black {
   color: #fff !important;
@@ -10439,6 +10446,7 @@ a.btn-info {
   background-color: var(--uog-color-black-focus) !important;
   border-color: var(--uog-color-black-focus) !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-primary {
   color: var(--uog-color-red) !important;
@@ -10454,6 +10462,7 @@ a.btn-info {
   background-color: var(--uog-color-red) !important;
   border-color: var(--uog-color-red) !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-secondary {
   color: var(--uog-color-black) !important;
@@ -10469,6 +10478,7 @@ a.btn-info {
   background-color: var(--uog-color-black) !important;
   border-color: var(--uog-color-black) !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-info {
   color: var(--uog-color-blue) !important;
@@ -10491,6 +10501,7 @@ a.btn-info {
   background-color: var(--uog-color-blue) !important;
   border-color: var(--uog-color-blue) !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-success {
   color: var(--uog-color-green) !important;
@@ -10506,6 +10517,7 @@ a.btn-info {
   background-color: var(--uog-color-green) !important;
   border-color: var(--uog-color-green) !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-warning {
   color: #d43900 !important;
@@ -10521,6 +10533,7 @@ a.btn-info {
   background-color: #d43900 !important;
   border-color: #d43900 !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-danger {
   color: var(--uog-color-red) !important;
@@ -10536,6 +10549,7 @@ a.btn-info {
   background-color: var(--uog-color-red-focus) !important;
   border-color: var(--uog-color-red-focus) !important;
   color: var(--uog-color-red-contrast) !important;
+  outline: none !important;
 }
 .btn-outline-white {
   color: #eee !important;
@@ -10551,6 +10565,7 @@ a.btn-info {
   background-color: #eee !important;
   border-color: #eee !important;
   color: #fff !important;
+  outline: none !important;
 }
 .btn-outline-white:active,
 .btn-outline-white:focus,
@@ -10571,6 +10586,7 @@ a.btn-info {
   background-color: var(--uog-color-black) !important;
   border-color: var(--uog-color-black) !important;
   color: var(--uog-color-black-contrast) !important;
+  outline: none !important;
 }
 a {
   color: var(--uog-color-body-copy-link);
